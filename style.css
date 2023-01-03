@@ -72,6 +72,7 @@ body {
 
 .section-hero {
   margin-top: 3rem;
+  position: relative;
 }
 
 .hero {
@@ -119,7 +120,7 @@ body {
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 32px;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .save:link,
@@ -137,4 +138,56 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   color: #ffffff;
+}
+
+.hero-description {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.nav-reg:link,
+.nav-reg:visited {
+  width: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 32px;
+  color: #fff;
+  background-color: #3671e9;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.img1,
+.img2,
+.img3 {
+  position: absolute;
+}
+
+.img1 {
+  top: 40%;
+  height: 5rem;
+  transform: translateX(35%);
+}
+
+.img1 img {
+  width: 50%;
+}
+
+.img2 {
+  top: 60%;
+  right: 0rem;
+  height: 5rem;
+}
+
+.img3 {
+  top: 120%;
+  right: 0rem;
+  height: 5rem;
+  transform: translateX(50%);
 }
