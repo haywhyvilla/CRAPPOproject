@@ -13,12 +13,12 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   font-weight: 400;
   line-height: 1;
 
   color: #555;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .section-ay {
@@ -193,52 +193,310 @@ body {
   transform: translateX(50%);
 }
 
-.grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
-}
 
-.grid {
-  display: grid;
-  column-gap: 6.4rem;
-  gap: 9.6rem;
-}
-
-.grid:not(:last-child) {
-  margin-bottom: 9.6rem;
-}
-
-.feature {
-  gap: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.feature img {
-  width: 6rem;
-}
-
-.heading-pri {
-  font-size: 3.2rem;
-  line-height: 1.05;
-  margin-bottom: 2rem;
-  font-weight: 700;
-  color: #ffffff;
-}
-
-.nav-reg1:link,
-.nav-reg1:visited {
-  width: 15rem;
+.trade-paragrapgh-1 {
+  width: 62rem;
   height: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  padding: 1rem 1.5rem;
-  border-radius: 32px;
-  color: #fff;
-  background-color: #3671e9;
-  text-decoration: none;
+  margin-left: 47rem;
+  margin-top: 10rem;
+
   font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+
+  text-align: center;
+
+  color: #999;
+}
+
+.trading-div {
+  position: relative;
+  width: 100%;
+  height: 70rem;
+  background-color: #fff;
+}
+
+.trade-cta {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-left: 32rem;
+  width: 100rem;
+  font-size: 2rem;
+  background-color: #fbfcfe;
+  margin-top: 20.7rem;
+  height: 15rem;
+  padding: 5rem 5rem 0rem 5rem;
+  border-radius: 1.6rem 1.6rem 0rem 0rem;
+}
+
+.cta-enter {
+  font-weight: 400;
+  color: #0d0d2b;
+  margin-top: -3rem;
+  margin-right: 20rem;
+}
+
+.form {
+  width: 40rem;
+  height: 0rem;
+  left: 29rem;
+  margin-top: 2rem;
+
+  border: 1px solid #e0e0e0;
+}
+
+.second-form {
+  width: 20rem;
+  height: 0rem;
+  left: 29rem;
+  margin-top: 2rem;
+  border: 1px solid #e0e0e0;
+}
+
+.ammount {
+  margin-top: -3rem;
+  margin-left: -14rem;
+  color: #0d0d2b;
+}
+
+.btn-cta {
+  color: #fff;
+  height: 5.9rem;
+  width: 14.7rem;
+  padding: 16px 32px 16px 32px;
+  font-size: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: #3671e9;
+  background: #3671e9;
+  border-radius: 3.2rem;
+  margin-top: -3rem;
+}
+
+.estimated-div {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100rem;
+  height: 21rem;
+  margin-left: 32rem;
+  /* margin-top: 21rem; */
+
+  background: #ffffff;
+  box-shadow: 0rem 0.1rem 4rem 0rem #8a7fa1;
+
+  border-radius: 0rem 0rem 1.6rem 1.6rem;
+}
+
+.estimated-heading {
+  color: #3671e9;
+  letter-spacing: 0.04em;
+  font-weight: 700;
   font-size: 1.5rem;
+  width: 25.4rem;
+  height: 0.2rem;
+  left: 2.9rem;
+  top: 2.2rem;
+  position: absolute;
+}
+
+.estimated-heading-2 {
+  position: absolute;
+  width: 62rem;
+  height: 4rem;
+  left: 2.7rem;
+  top: 4rem;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 150%;
+
+  letter-spacing: 0.04em;
+
+  color: #0d0d2b;
+}
+.estimated-blue {
+  color: #3671e9;
+}
+
+.estimated-paragraph {
+  margin-top: 10rem;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
+
+.heading-trade {
+  font-size: 3rem;
+  text-align: center;
+  color: #222;
+  font-weight: 900;
+  line-height: 100%;
+  width: 50rem;
+  margin-left: 34rem;
+}
+
+.coins-div {
+  height: 50rem;
+  width: 120rem;
+  margin-left: 22rem;
+}
+
+.btc-div {
+  background-color: #2b076e;
+  width: 20rem;
+  height: 10rem;
+}.trade-paragrapgh-1 {
+  width: 62rem;
+  height: 5rem;
+  margin-left: 47rem;
+  margin-top: 10rem;
+
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+
+  text-align: center;
+
+  color: #999;
+}
+
+.trading-div {
+  position: relative;
+  width: 100%;
+  height: 70rem;
+  background-color: #fff;
+}
+
+.trade-cta {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-left: 32rem;
+  width: 100rem;
+  font-size: 2rem;
+  background-color: #fbfcfe;
+  margin-top: 20.7rem;
+  height: 15rem;
+  padding: 5rem 5rem 0rem 5rem;
+  border-radius: 1.6rem 1.6rem 0rem 0rem;
+}
+
+.cta-enter {
+  font-weight: 400;
+  color: #0d0d2b;
+  margin-top: -3rem;
+  margin-right: 20rem;
+}
+
+.form {
+  width: 40rem;
+  height: 0rem;
+  left: 29rem;
+  margin-top: 2rem;
+
+  border: 1px solid #e0e0e0;
+}
+
+.second-form {
+  width: 20rem;
+  height: 0rem;
+  left: 29rem;
+  margin-top: 2rem;
+  border: 1px solid #e0e0e0;
+}
+
+.ammount {
+  margin-top: -3rem;
+  margin-left: -14rem;
+  color: #0d0d2b;
+}
+
+.btn-cta {
+  color: #fff;
+  height: 5.9rem;
+  width: 14.7rem;
+  padding: 16px 32px 16px 32px;
+  font-size: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: #3671e9;
+  background: #3671e9;
+  border-radius: 3.2rem;
+  margin-top: -3rem;
+}
+
+.estimated-div {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100rem;
+  height: 21rem;
+  margin-left: 32rem;
+  /* margin-top: 21rem; */
+
+  background: #ffffff;
+  box-shadow: 0rem 0.1rem 4rem 0rem #8a7fa1;
+
+  border-radius: 0rem 0rem 1.6rem 1.6rem;
+}
+
+.estimated-heading {
+  color: #3671e9;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 25.4rem;
+  height: 0.2rem;
+  left: 2.9rem;
+  top: 2.2rem;
+  position: absolute;
+}
+
+.estimated-heading-2 {
+  position: absolute;
+  width: 62rem;
+  height: 4rem;
+  left: 2.7rem;
+  top: 4rem;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 150%;
+
+  letter-spacing: 0.04em;
+
+  color: #0d0d2b;
+}
+.estimated-blue {
+  color: #3671e9;
+}
+
+.estimated-paragraph {
+  margin-top: 10rem;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
+
+.heading-trade {
+  font-size: 3rem;
+  text-align: center;
+  color: #222;
+  font-weight: 900;
+  line-height: 100%;
+  width: 50rem;
+  margin-left: 34rem;
+}
+
+.coins-div {
+  height: 50rem;
+  width: 120rem;
+  margin-left: 22rem;
+}
+
+.btc-div {
+  background-color: #2b076e;
+  width: 20rem;
+  height: 10rem;
+}
 
