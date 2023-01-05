@@ -71,7 +71,7 @@ body {
 }
 
 .section-hero {
-  margin-top: 3rem;
+  margin: 3rem 0rem 14rem 0rem;
   position: relative;
 }
 
@@ -143,8 +143,9 @@ body {
 .hero-description {
   font-weight: 400;
   font-size: 1.2rem;
-  color: #ffffff;
-  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+  margin-bottom: 1.8rem;
+  letter-spacing: 0.4px;
 }
 
 .nav-reg:link,
@@ -154,13 +155,13 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 1.2rem 2.4rem;
+  padding: 1rem 2.2rem;
   border-radius: 32px;
   color: #fff;
   background-color: #3671e9;
   text-decoration: none;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .img1,
@@ -180,7 +181,7 @@ body {
 }
 
 .img2 {
-  top: 60%;
+  top: 40%;
   right: 0rem;
   height: 5rem;
 }
@@ -192,50 +193,52 @@ body {
   transform: translateX(50%);
 }
 
-/* *****************************************FAVOUR CSS STYLES STARTS HERE********************************** */
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
 
-.trade-div {
-  height: 50rem;
-  width: auto;
-  background-color: #fff;
-  text-align: center;
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.feature {
+  gap: 2rem;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.rate-paragraph {
+.feature img {
+  width: 6rem;
+}
+
+.heading-pri {
+  font-size: 3.2rem;
+  line-height: 1.05;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.nav-reg1:link,
+.nav-reg1:visited {
+  width: 15rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 32px;
+  color: #fff;
+  background-color: #3671e9;
+  text-decoration: none;
+  font-weight: 400;
   font-size: 1.5rem;
-  line-height: 2rem;
-  height: 5.2rem;
-  width: 40rem;
-  margin-left: 40.2rem;
-  margin-top: 16.9rem;
-  border-radius: nullpx;
-}
 
-.trade-rate {
-  position: absolute;
-  width: 942px;
-  height: 155px;
-  left: 249px;
-  top: 2017px;
-
-  background: #fbfcfe;
-  border-radius: 16px 16px 0px 0px;
-}
-
-.estimation {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 94rem;
-  height: 21rem;
-  left: 24rem;
-  top: 217rem;
-
-  /* Neutral / White */
-
-  background: #ffffff;
-  mix-blend-mode: overlay;
-  box-shadow: 0 8rem 4rem #391777;
-  border-radius: 0px 0px 16px 16px;
-}
