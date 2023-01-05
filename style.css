@@ -71,7 +71,7 @@ body {
 }
 
 .section-hero {
-  margin-top: 3rem;
+  margin: 3rem 0rem 14rem 0rem;
   position: relative;
 }
 
@@ -143,8 +143,9 @@ body {
 .hero-description {
   font-weight: 400;
   font-size: 1.2rem;
-  color: #ffffff;
-  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+  margin-bottom: 1.8rem;
+  letter-spacing: 0.4px;
 }
 
 .nav-reg:link,
@@ -154,13 +155,13 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 1.2rem 2.4rem;
+  padding: 1rem 2.2rem;
   border-radius: 32px;
   color: #fff;
   background-color: #3671e9;
   text-decoration: none;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .img1,
@@ -180,7 +181,7 @@ body {
 }
 
 .img2 {
-  top: 60%;
+  top: 40%;
   right: 0rem;
   height: 5rem;
 }
@@ -191,6 +192,7 @@ body {
   height: 5rem;
   transform: translateX(50%);
 }
+
 
 .trade-paragrapgh-1 {
   width: 62rem;
@@ -344,4 +346,157 @@ body {
   background-color: #2b076e;
   width: 20rem;
   height: 10rem;
+}.trade-paragrapgh-1 {
+  width: 62rem;
+  height: 5rem;
+  margin-left: 47rem;
+  margin-top: 10rem;
+
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+
+  text-align: center;
+
+  color: #999;
 }
+
+.trading-div {
+  position: relative;
+  width: 100%;
+  height: 70rem;
+  background-color: #fff;
+}
+
+.trade-cta {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-left: 32rem;
+  width: 100rem;
+  font-size: 2rem;
+  background-color: #fbfcfe;
+  margin-top: 20.7rem;
+  height: 15rem;
+  padding: 5rem 5rem 0rem 5rem;
+  border-radius: 1.6rem 1.6rem 0rem 0rem;
+}
+
+.cta-enter {
+  font-weight: 400;
+  color: #0d0d2b;
+  margin-top: -3rem;
+  margin-right: 20rem;
+}
+
+.form {
+  width: 40rem;
+  height: 0rem;
+  left: 29rem;
+  margin-top: 2rem;
+
+  border: 1px solid #e0e0e0;
+}
+
+.second-form {
+  width: 20rem;
+  height: 0rem;
+  left: 29rem;
+  margin-top: 2rem;
+  border: 1px solid #e0e0e0;
+}
+
+.ammount {
+  margin-top: -3rem;
+  margin-left: -14rem;
+  color: #0d0d2b;
+}
+
+.btn-cta {
+  color: #fff;
+  height: 5.9rem;
+  width: 14.7rem;
+  padding: 16px 32px 16px 32px;
+  font-size: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: #3671e9;
+  background: #3671e9;
+  border-radius: 3.2rem;
+  margin-top: -3rem;
+}
+
+.estimated-div {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100rem;
+  height: 21rem;
+  margin-left: 32rem;
+  /* margin-top: 21rem; */
+
+  background: #ffffff;
+  box-shadow: 0rem 0.1rem 4rem 0rem #8a7fa1;
+
+  border-radius: 0rem 0rem 1.6rem 1.6rem;
+}
+
+.estimated-heading {
+  color: #3671e9;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 25.4rem;
+  height: 0.2rem;
+  left: 2.9rem;
+  top: 2.2rem;
+  position: absolute;
+}
+
+.estimated-heading-2 {
+  position: absolute;
+  width: 62rem;
+  height: 4rem;
+  left: 2.7rem;
+  top: 4rem;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 150%;
+
+  letter-spacing: 0.04em;
+
+  color: #0d0d2b;
+}
+.estimated-blue {
+  color: #3671e9;
+}
+
+.estimated-paragraph {
+  margin-top: 10rem;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
+
+.heading-trade {
+  font-size: 3rem;
+  text-align: center;
+  color: #222;
+  font-weight: 900;
+  line-height: 100%;
+  width: 50rem;
+  margin-left: 34rem;
+}
+
+.coins-div {
+  height: 50rem;
+  width: 120rem;
+  margin-left: 22rem;
+}
+
+.btc-div {
+  background-color: #2b076e;
+  width: 20rem;
+  height: 10rem;
+}
+
