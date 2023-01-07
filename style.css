@@ -749,3 +749,8 @@ column-gap: 2rem;
   display: flex;
   column-gap: 2rem;
 }
+
+.footer-whitespace{
+  height: 10rem;
+  background-color: #fff;
+}
