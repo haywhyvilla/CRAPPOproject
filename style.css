@@ -136,6 +136,7 @@ body {
   border-radius: 32px;
   color: #0d0d2b;
   background-color: #ffffff;
+  text-decoration: none;
 }
 
 .save-word {
@@ -574,4 +575,177 @@ body {
 
 .new-hero {
   margin-top: 7rem;
+}
+
+/* ////////////////////////////////////SECTION FAVOUR MARKET BEGINS//////////////////////////////// */
+
+.footer {
+  background: linear-gradient(180deg, #2b076e 0%, #0d0d2b 100%);
+  height: 45rem;
+  position: relative;
+}
+
+.footer-cta {
+  background-color: #3671e9;
+  height: 20rem;
+  width: 100rem;
+  margin-left: 22.5rem;
+  border-radius: 1.6rem;
+  margin-top: 15rem;
+  position: absolute;
+}
+
+.head-footer-cta {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 150%;
+  color: #fff;
+  margin-left: 8rem;
+  margin-top: 3rem;
+  position: absolute;
+}
+
+.footer-cta-paragraph {
+  color: #fff;
+  position: absolute;
+  margin-top: 10rem;
+  font-size: 1.5rem;
+  width: 32rem;
+  margin-left: 8rem;
+}
+
+.footer-form {
+  width: 30rem;
+  height: 0rem;
+  margin-left: 49rem;
+  position: absolute;
+  margin-top: 10rem;
+
+  border: 1px solid #e0e0e0;
+}
+
+.footer-form-paragraph {
+  font-size: 1.3rem;
+  margin-top: -3rem;
+  color: #fff;
+}
+
+ .footer-btn {
+  position: absolute;
+  margin-left: 85rem;
+  margin-top: 7rem;
+  background-color: #fff;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.5rem;
+  height: 5rem;
+  width: 12rem;
+  padding-right: 7rem;
+  padding-bottom: 1.5rem;
+  
+} 
+
+.subscription {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  position: inherit;
+}
+
+
+.footer-btc-logo {
+  margin-left: 85rem;
+  margin-bottom: -20rem;
+ 
+}
+
+.footer-ltc-logo{
+  margin-top: 3rem;
+  position: absolute;
+  margin-left: -100rem;
+}
+
+.footer-2 {
+  height: 30rem;
+  background: #0d0d2b;
+  width: 135rem;
+  margin-left: 7rem;
+}
+
+.footer-components-1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.6rem;
+  margin-left: 40rem;
+}
+.li{
+  list-style-type: none;
+
+}
+
+.footer-2-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.footer-components-2{
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.6rem;
+  margin-left: 60rem;
+  margin-top: -11rem;
+  display: flex;
+}
+
+.visa-card{
+  height: 5rem;
+  width: 7rem;
+  /* background: #E0E0E0;
+opacity: 0.7;
+border-radius: 8px; */
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+ 
+}
+
+.mastercard{
+  height: 5rem;
+  width: 7rem;
+  /* background: #E0E0E0;
+opacity: 0.7;
+border-radius: 8px; */
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+ .bitcoin-component{
+  background: #E0E0E0;
+  opacity: 0.7;
+  border-radius: 8px;
+  height: 5rem;
+  width: 7rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.footer-components-3{
+  display: flex;
+  margin-left: 90rem;
+  margin-top: -9rem;
+column-gap: 2rem;
+}
+
+
+.copyright{
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 17rem;
+  margin-left: 5rem;
+}
+
+.socials-icon{
+  margin-left: 105rem;
+  display: flex;
+  column-gap: 2rem;
 }
