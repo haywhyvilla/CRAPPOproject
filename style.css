@@ -243,10 +243,13 @@ body {
   font-size: 1.5rem;
 }
 
+/* ///////////////////////FAVOUR SECTION STARTS////////////////////////////////////////////// */
+
+
 .trade-paragrapgh-1 {
   width: 62rem;
   height: 5rem;
-  margin-left: 47rem;
+  margin-left: 40rem;
   margin-top: 10rem;
 
   font-weight: 400;
@@ -269,7 +272,7 @@ body {
   display: flex;
   text-align: center;
   justify-content: space-between;
-  margin-left: 30rem;
+  margin-left: 22.5rem;
   width: 100rem;
   font-size: 2rem;
   background-color: #fbfcfe;
@@ -328,7 +331,7 @@ body {
   position: absolute;
   width: 100rem;
   height: 21rem;
-  margin-left: 30rem;
+  margin-left: 22.5rem;
   /* margin-top: 21rem; */
 
   background: #ffffff;
@@ -376,20 +379,20 @@ body {
 }
 
 .heading-trade {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   color: #222;
   font-weight: 900;
   line-height: 100%;
-  width: 80rem;
-  margin-left: 42rem;
+  width: 70rem;
+  margin-left: 38rem;
   margin-top: 10rem;
 }
 
 .coins-div {
-  height: 70rem;
+  height: 60rem;
   width: 120rem;
-  margin-left: 22rem;
+  margin-left: 12rem;
   /* margin-top: 10rem; */
   display: flex;
   justify-content: space-between;
@@ -517,4 +520,54 @@ body {
 
 .ltc-type-div {
   background-color: #fff;
+}
+
+/* //////////Section market Ay */
+
+.market-container {
+  margin-bottom: 15rem;
+}
+.section-market {
+  background-color: #2b076e;
+  padding: 4rem 9.6rem;
+}
+
+.market-heading {
+  font-size: 4rem;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 900;
+  line-height: 5.5rem;
+  margin: 10rem 0rem;
+  padding: 0rem 20rem;
+}
+
+.hero-text-box2 {
+  margin-top: -15rem;
+}
+
+.hero-description2 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #e0e0e0;
+  margin-bottom: 2.8rem;
+  letter-spacing: 0.8px;
+}
+
+.save-word2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.absolute {
+  position: absolute;
+  top: 7rem;
+  left: 7rem;
+}
+
+.new-hero {
+  margin-top: 7rem;
 }
